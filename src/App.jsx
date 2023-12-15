@@ -34,33 +34,33 @@ function App() {
         <div className='text-end text-3xl pe-3'>{result}</div>
         </div>
         <div className=' w-full flex justify-between mt-5'>
-          <button onClick={()=>clicked('Ac')} className='border-2 rounded-xl w-[5rem] h-16'>Ac</button>
-          <button onClick={()=>clicked('clear')} className='border-2 rounded-xl w-[5rem] h-16'><i class="fa-solid fa-delete-left"></i></button>
-          <button onClick={()=>clicked('%')} className='border-2 rounded-xl w-[5rem] h-16'>%</button>
-          <button onClick={()=>clicked('/')} className='border-2 rounded-xl w-[5rem] h-16 bg-orange-400'>/</button>
+          <button onClick={()=>clicked('Ac')} className='bg-sky-400 text-white text-2xl font-bold rounded-xl w-[5rem] h-16'>Ac</button>
+          <button onClick={()=>clicked('clear')} className='bg-sky-400 text-white text-2xl font-bold rounded-xl w-[5rem] h-16'><i class="fa-solid fa-delete-left"></i></button>
+          <button onClick={()=>clicked('%')} className='bg-sky-400 text-white text-2xl font-bold rounded-xl w-[5rem] h-16'>%</button>
+          <button onClick={()=>clicked('/')} className='text-white text-2xl font-bold rounded-xl w-[5rem] h-16 bg-orange-400'>/</button>
         </div>
         <div className=' w-full flex justify-between mt-2'>
-          <button onClick={()=>clicked('7')} className='border-2 rounded-xl w-[5rem] h-16'>7</button>
-          <button onClick={()=>clicked('8')} className='border-2 rounded-xl w-[5rem] h-16'>8</button>
-          <button onClick={()=>clicked('9')} className='border-2 rounded-xl w-[5rem] h-16'>9</button>
-          <button onClick={()=>clicked('*')} className='border-2 rounded-xl w-[5rem] h-16 bg-orange-400'>X</button>
+          <button onClick={()=>clicked('7')} className='bg-sky-400 text-white text-2xl font-bold rounded-xl w-[5rem] h-16'>7</button>
+          <button onClick={()=>clicked('8')} className='bg-sky-400 text-white text-2xl font-bold rounded-xl w-[5rem] h-16'>8</button>
+          <button onClick={()=>clicked('9')} className='bg-sky-400 text-white text-2xl font-bold rounded-xl w-[5rem] h-16'>9</button>
+          <button onClick={()=>clicked('*')} className=' text-white text-2xl font-bold rounded-xl w-[5rem] h-16 bg-orange-400'>X</button>
         </div>
         <div className=' w-full flex justify-between mt-2'>
-          <button onClick={()=>clicked('4')} className='border-2 rounded-xl w-[5rem] h-16'>4</button>
-          <button onClick={()=>clicked('5')} className='border-2 rounded-xl w-[5rem] h-16'>5</button>
-          <button onClick={()=>clicked('6')} className='border-2 rounded-xl w-[5rem] h-16'>6</button>
-          <button onClick={()=>clicked('-')} className='border-2 rounded-xl w-[5rem] h-16 bg-orange-400'>-</button>
+          <button onClick={()=>clicked('4')} className='bg-sky-400 text-white text-2xl font-bold rounded-xl w-[5rem] h-16'>4</button>
+          <button onClick={()=>clicked('5')} className='bg-sky-400 text-white text-2xl font-bold  rounded-xl w-[5rem] h-16'>5</button>
+          <button onClick={()=>clicked('6')} className='bg-sky-400 text-white text-2xl font-bold rounded-xl w-[5rem] h-16'>6</button>
+          <button onClick={()=>clicked('-')} className='  text-white text-2xl font-bold rounded-xl w-[5rem] h-16 bg-orange-400'>-</button>
         </div>
         <div className='w-full flex justify-between mt-2'>
-          <button onClick={()=>clicked('1')} className='border-2 rounded-xl w-[5rem] h-16'>1</button>
-          <button onClick={()=>clicked('2')} className='border-2 rounded-xl w-[5rem] h-16'>2</button>
-          <button onClick={()=>clicked('3')} className='border-2 rounded-xl w-[5rem] h-16'>3</button>
-          <button onClick={()=>clicked('+')} className='border-2 rounded-xl w-[5rem] h-16 bg-orange-400'>+</button>
+          <button onClick={()=>clicked('1')} className='bg-sky-400 text-white text-2xl font-bold rounded-xl w-[5rem] h-16'>1</button>
+          <button onClick={()=>clicked('2')} className='bg-sky-400 text-white text-2xl font-bold rounded-xl w-[5rem] h-16'>2</button>
+          <button onClick={()=>clicked('3')} className='bg-sky-400 text-white text-2xl font-bold rounded-xl w-[5rem] h-16'>3</button>
+          <button onClick={()=>clicked('+')} className=' text-white text-2xl font-bold rounded-xl w-[5rem] h-16 bg-orange-400'>+</button>
         </div>
         <div className=' w-full flex justify-between mt-2'>
-          <button onClick={()=>clicked('0')} className='border-2 rounded-xl w-[5rem] h-16'>0</button>
-          <button onClick={()=>clicked('.')} className='border-2 rounded-xl w-[5rem] h-16'>.</button>
-          <button onClick={()=>clicked('=')} className='border-2 rounded-xl w-[10rem] h-16 bg-green-400'>=</button>
+          <button onClick={()=>clicked('0')} className='bg-sky-400 text-white text-2xl font-bold rounded-xl w-[5rem] h-16'>0</button>
+          <button onClick={()=>clicked('.')} className='bg-sky-400 text-white text-2xl font-bold rounded-xl w-[5rem] h-16'>.</button>
+          <button onClick={()=>clicked('=')} className='text-white text-2xl font-bold rounded-xl w-[10rem] h-16 bg-green-400'>=</button>
         </div>
       </div>
      </div>
