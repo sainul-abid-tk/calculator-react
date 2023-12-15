@@ -51,7 +51,7 @@ function App() {
           <button onClick={()=>clicked('6')} className='border-2 rounded-xl w-[5rem] h-16'>6</button>
           <button onClick={()=>clicked('-')} className='border-2 rounded-xl w-[5rem] h-16 bg-orange-400'>-</button>
         </div>
-        <div className=' w-full flex justify-between mt-2'>
+        <div className='w-full flex justify-between mt-2'>
           <button onClick={()=>clicked('1')} className='border-2 rounded-xl w-[5rem] h-16'>1</button>
           <button onClick={()=>clicked('2')} className='border-2 rounded-xl w-[5rem] h-16'>2</button>
           <button onClick={()=>clicked('3')} className='border-2 rounded-xl w-[5rem] h-16'>3</button>
